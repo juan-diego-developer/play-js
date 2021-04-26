@@ -16,6 +16,18 @@ body {
 
 #title {
     font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 480px) {
+    #title {
+        font-size: 25px;
+    }
+    #distance {
+        font-size: 20px;
+    }
+    
 }
 
 #distance {
