@@ -1,6 +1,6 @@
 
-let getRandomNumber = (e) /*size*/ => {
-    return Math.round(Math.random() * e);
+let getRandomNumber = (size) /**/ => {
+    return Math.floor(Math.random() * size);
 }
 
 let getDistance = (e, target) => {
@@ -14,11 +14,11 @@ let getDistanceHint = distance => {
     if (distance < 30) {
         return "Boiling Hot!";
     } else if(distance < 40) {
-        return "Really hot";
+        return "Really Hot";
     } else if (distance < 60){
         return "Hot";
     } else if (distance < 100) {
-        return"Watm";
+        return"Warm";
     } else if (distance < 180) {
         return "Cold";
     } else if (distance < 360) {
